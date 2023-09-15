@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Functions</title>
+</head>
+<body>
+    <script>
+        var string="This is a string"
+        console.log(string);
+        //First occourence of a string
+        var position = string.indexOf('is');
+        console.log(position);
+        //Last occourence of a string
+        position = string.lastIndexOf('is');
+        console.log(position); 
+        //Substring from a string(slicing)
+        var substr = string.slice(1,6);
+        console.log(substr);
+        //Replace a string
+        var replaced = string.replace('string','Anurag');
+        console.log(string);
+        console.log(replaced);
+        //To uppercase and lower case
+        console.log(string.toUpperCase());
+        console.log(string.toLowerCase());
+        //Trim function to cut the unwanted spaces from front and end
+        var strWhiteSpaces = "           this         is       Anurag              ";
+        console.log(strWhiteSpaces);
+        console.log(strWhiteSpaces.trim());
+
+    </script>
+</body>
+</html>

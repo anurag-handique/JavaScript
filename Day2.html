@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings in JS | Strings and Strings Method</title>
+
+</head>
+<body>
+    <div class="container">
+        <div id="content"></div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit impedit corrupti, sequi quas ipsa eveniet aliquid enim voluptate. Cupiditate itaque incidunt tenetur ipsa et quae officiis distinctio, voluptatum in repellendus repellat. Explicabo, ipsa nemo soluta officia aliquam consequatur tenetur odio facere culpa ea molestias doloribus ut possimus quis corporis! Placeat laudantium fugiat, nesciunt natus ad consequatur deleniti voluptatum cupiditate perspiciatis repellendus ipsam saepe?</h1>
+    </div>
+    <script>
+       var firstname = "Anurag";
+       var lastname = "Handique";
+       var languages = "Java,Html,Css,Js";
+       var canwrite = 'Doesn"t';//Strings can be written under single quotes
+       var temp = `${firstname+" "+lastname} is mastered in ${languages}`;
+       console.log(temp);
+
+       //methods
+
+       var length = firstname.length;
+       console.log(`Length of first name ${length}`);
+
+       //String constructors
+
+       var y = new String("this");
+       console.log(y);
+
+       //Dynamically enter an element to html
+
+       document.getElementById('content').innerHTML='<h3>this is an h3 heading!!!</h3>';
+
+    </script>
+    
+</body>
+</html>
